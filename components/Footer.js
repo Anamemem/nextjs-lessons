@@ -1,7 +1,8 @@
 const Footer = () => {
     return ( 
         <footer>
-            copyright 2021 ninja list
+         
+           2022 RipplED, Inc All rights reserved
         </footer>
      );
 }
