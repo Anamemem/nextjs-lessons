@@ -64,9 +64,19 @@ export default function login() {
 <meta name='keywords' content='Rippled' /> 
     </Head>
     <div>
-      <Grid container sx={{ minHeight: '120vh'}} className={styles.text}>
-        <Grid sx={{px:{xs:3,md:9}, py:1 }} item container alignContent="center" xs={12} md={6}>
+      <Grid container sx={{ minHeight: '100vh'}} className={styles.text} overFlowY='hidden'>
+        <Grid sx={{px:{xs:3,md:9}, py:1 }} item container alignContent="center" xs={12} md={6} >
             <Grid item>
+            <Stack direction="row" alignItems="flex-start" justifyContent="space-between" sx={{px:{xs:4,md:5}}} xs={12} md={6}>
+    <Stack direction="row" spacing={1} alignItems="flex-start">
+      <Link href='/'>
+    <Image src='/Rectangle 74.png' width={200} height={37}  alt="logo" />
+    </Link>
+      </Stack>  
+      <Link href='/signup'>
+         Don't Have An Account?Sign Up
+         </Link>
+      </Stack>
                <Typography variant="h6" className={styles.title1}  textAlign="flex-end">
                   Welcome Back!
                </Typography>
@@ -100,7 +110,7 @@ export default function login() {
                 </InputAdornment>,
                }}
                />
-<Stack direction="row" alignItems="flex-start" justifyContent="space-between">
+<Stack direction="row" alignItems="flex-start" justifyContent="space-between" sx={{px:{xs:4,md:5}}}>
     <Stack direction="row" spacing={1} alignItems="flex-start">
         <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} />
         <Typography className={styles.texts}>Remember me</Typography>
@@ -114,9 +124,8 @@ export default function login() {
       <a className={styles.btn2}>Login</a>
       </Link>
 
-      <Divider orientation="vertical" flexItem className={styles.one1}>
-        or
-      </Divider>
+      <Typography className={styles.one1} variant="h7"> or</Typography>
+       
 
       <Link href="/">
       <a className={styles.btn23}><Image src='/icons8-google-48.png' alt="" height={25} width={24}/>LOGIN WITH GOOGLE</a>
@@ -125,10 +134,15 @@ export default function login() {
 
         </Grid>
 
-        <Grid sx={{px:9, py:5, display:{xs:'none', md:'flex'}}} item container alignContent="center" justifyContent="space-evenly" direction="column" xs={12} md={6}>
-latest
-            </Grid>
+        <Grid sx={{px:9, py:5, display:{xs:'none', md:'flex'}}} className={styles.sect} item container alignContent="center" direction="column" xs={12} md={6}>
+           <img src='/Group 10712.png' alt="" width={550}  height={450} />
+           <a className={styles.btn24}><img src='/thumbs-up_1f44d 1.png' alt='/' width={20} height={20} />Top Notch Stock Resources</a>
 
+           <Typography variant="h7" className={styles.btn20}>
+          Today, we create innovative solutions<br /> to the challenges that consumers face in both their<br /> everyday lives and events.
+          </Typography>
+            </Grid>
+          
       </Grid>
     </div>
     </>

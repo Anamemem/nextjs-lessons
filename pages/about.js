@@ -4,7 +4,8 @@ import Image from 'next/image';
 import { Box, Stack, Grid, Divider, Button } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 import TextField from '@mui/material/TextField';
 
 
@@ -18,6 +19,7 @@ const About = () => {
 <meta name='keywords' content='Rippled' /> 
     </Head>
         <div>
+         <Navbar />
         <h1 className={styles.title}>About RipplED</h1>
       <p className={styles.text}>RipplED is an SDGs-target initiative that seeks to raise young social impact agents ages 10- 18<br />
        by providing the guidance and support they need to thrive from the start to the finish. In a<br />
@@ -324,6 +326,7 @@ the SDGs by 2030</p>
          </Grid>
             </Grid>
         </Grid>
+        <Footer />
                  </div>
         </>
      );

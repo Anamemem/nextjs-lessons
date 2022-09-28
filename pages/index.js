@@ -6,8 +6,12 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
- 
+import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css'
+import Footer from '../components/Footer';
+import Divider from '@mui/material/Divider';
+import PeopleIcon from '@mui/icons-material/People';
+import CardMedia from '@mui/material/CardMedia';
 
 
 
@@ -20,6 +24,7 @@ export default function Home() {
 <meta name='keywords' content='Rippled' /> 
     </Head>
     <div>
+    <Navbar />
       <Grid container sx={{px: 6}}>
         <Grid item md={6}>
           <h1 className={styles.t}>Receive the support you need
@@ -106,25 +111,35 @@ and become global change makers.</p>
 <Grid container >
   <Grid item md={4}>
   <Card sx={{ maxWidth: 345 }}>
-  <Stack direction="row"
-  justifyContent="center"
-  alignItems="center"
-  spacing={2}>
-
-         <img src='/image 6.png' style={{cursor: 'pointer'}} height={150} width={370} alt='' />
-  </Stack>
+      <CardMedia
+        component="img"
+        height="185"
+        width="200"
+        image="/image 6.png/"
+        alt=""
+      />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
+        <Stack direction="row" justifyContent="space-between">
+        <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: "12px", color: "#2A569F", margin: "10px"}}>
+        No Poverty
         </Typography>
+        <Typography variant="body3" style={{ fontSize: "12px", color: "#2A569F", margin: "10px"}}>
+          30th June 2022
+        </Typography>
+        </Stack>
         <Typography variant="body2" color="text.secondary">
-        Masters In English | How To English | How Toiik
-Become A Good English Speaker how to inno
-Become A Good English Speaker how towklljk
-Become A Good English Speaker how to,
+         Masters in English | How To Speak English | How To Become A Good English Speaker |  
+         How To Become A Good English Speaker | How To Become A Good English Speaker
         </Typography>
       </CardContent>
-    
+      <Divider variant="middle" />
+      <CardActions>
+      <Stack direction="row" justifyContent="space-between">
+        <PeopleIcon />223
+        latest
+        <Button size="small">View</Button>
+        </Stack>
+      </CardActions>
     </Card>
 
   </Grid>
@@ -140,7 +155,7 @@ Become A Good English Speaker how to,
        
        
       
-     
+     <Footer />
       
       
     </div>
