@@ -318,7 +318,7 @@ the SDGs by 2030</p>
             </Grid>
             <Grid item xs={12} >
                <p>Message</p>
-               <textarea className={styles.mes} placeholder='start typing here'></textarea>
+               {/* <textarea className={styles.mes} placeholder='start typing here'></textarea> */}
             </Grid>
             <button className={styles.btnf}>Submit</button>
          </Grid>
