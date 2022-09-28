@@ -1,11 +1,17 @@
 import Head  from 'next/head'
 import Link from 'next/link'
-import { Grid, Stack, Box } from '@mui/material'
+import Image from 'next/image';
+ import Footer from "../components/Footer";
+ import Navbar from "../components/Navbar";
+import { Grid, Stack, Box,Divider } from '@mui/material'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import PeopleIcon from '@mui/icons-material/People';
+import CardMedia from '@mui/material/CardMedia';
+
  
 import styles from '../styles/Home.module.css'
 
@@ -20,6 +26,7 @@ export default function Home() {
 <meta name='keywords' content='Rippled' /> 
     </Head>
     <div>
+      <Navbar />
       <Grid container sx={{px: 6}}>
         <Grid item md={6}>
           <h1 className={styles.t}>Receive the support you need
@@ -42,7 +49,7 @@ become innovators and global change agents.</p>
   >
 
 
-      <img src='/union.png' height={430} width={420} alt='' />
+      <Image src='/union.png' height={430} width={420} alt='' />
   </Stack>
         </Grid>
       </Grid>
@@ -75,7 +82,7 @@ become innovators and global change agents.</p>
   alignItems="center"
  >
 
-         <img src='/image 23.png' style={{cursor: 'pointer'}} height={280} width={355} alt='' />
+         <Image src='/image 23.png' style={{cursor: 'pointer'}} height={280} width={355} alt='' />
   </Stack>
 
          </Grid>
@@ -105,7 +112,37 @@ and become global change makers.</p>
           <Grid item md={8}>
 <Grid container >
   <Grid item md={4}>
- 
+  <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="185"
+        width="200"
+        image="/image 6.png/"
+        alt=""
+      />
+      <CardContent>
+        <Stack direction="row" justifyContent="space-between">
+        <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: "12px", color: "#2A569F", margin: "10px"}}>
+        No Poverty
+        </Typography>
+        <Typography variant="body3" style={{ fontSize: "12px", color: "#2A569F", margin: "10px"}}>
+          30th June 2022
+        </Typography>
+        </Stack>
+        <Typography variant="body2" color="text.secondary">
+         Masters in English | How To Speak English | How To Become A Good English Speaker |  
+         How To Become A Good English Speaker | How To Become A Good English Speaker
+        </Typography>
+      </CardContent>
+      <Divider variant="middle" />
+      <CardActions>
+      <Stack direction="row" justifyContent="space-between">
+        <PeopleIcon />223
+        latest
+        <Button size="small">View</Button>
+        </Stack>
+      </CardActions>
+    </Card>
   </Grid>
   <Grid item md={4}>
     
@@ -148,7 +185,7 @@ and become global change makers.</p>
   alignItems="center"
   >
 
-         <img src='/col-md-6.png' style={{cursor: 'pointer'}} height={250} width={370} alt='' />
+         <Image src='/col-md-6.png' style={{cursor: 'pointer'}} height={250} width={370} alt='' />
   </Stack>
 
          </Grid>
@@ -171,7 +208,7 @@ the SDGs by 2030</p>
   alignItems="center"
   
   >
-      <img  src='/Rectangle 323.png' height={230} width={270}  alt='' />
+      <Image  src='/Rectangle 323.png' height={230} width={270}  alt='' />
   </Stack>
       <CardContent style={{backgroundColor: '#', marginTop: "-25%",textAlign: "left"}}>
    <h1  className={styles.yo}>Blessing Akpan</h1>
@@ -194,7 +231,7 @@ integer velna vitae.</p>
   >
 
 
-      <img  src='/Rectangle 323.png' height={230} width={270}  alt='' />
+      <Image  src='/Rectangle 323.png' height={230} width={270}  alt='' />
   </Stack>
       <CardContent style={{backgroundColor: '#', marginTop: "-25%",textAlign: "left"}}>
       <h1  className={styles.yo}>Blessing Akpan</h1>
@@ -216,7 +253,7 @@ integer velna vitae.</p>
   >
 
 
-      <img  src='/Rectangle 323.png' height={230} width={270} alt='' />
+      <Image  src='/Rectangle 323.png' height={230} width={270} alt='' />
   </Stack>
       <CardContent style={{backgroundColor: '#', marginTop: "-25%",textAlign: "left"}}>
       <h1  className={styles.yo}>Blessing Akpan</h1>
@@ -238,7 +275,7 @@ integer velna vitae.</p>
   alignItems="center"
   spacing={2}>
 
-         <img src='/Group 184.png' style={{cursor: 'pointer'}} height={600} width={700} alt='' />
+         <Image src='/Group 184.png' style={{cursor: 'pointer'}} height={600} width={700} alt='' />
   </Stack>
 
          </Grid>
@@ -277,7 +314,7 @@ integer velna vitae.</p>
          </Grid>
             </Grid>
         </Grid>
-              
+              <Footer />
     </div>
     </>
   )

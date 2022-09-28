@@ -4,7 +4,8 @@ import Image from 'next/image';
 import { Box, Stack, Grid, Divider, Button } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 import TextField from '@mui/material/TextField';
 
 
@@ -18,6 +19,7 @@ const About = () => {
 <meta name='keywords' content='Rippled' /> 
     </Head>
         <div>
+         <Navbar />
         <h1 className={styles.title}>About RipplED</h1>
       <p className={styles.text}>RipplED is an SDGs-target initiative that seeks to raise young social impact agents ages 10- 18<br />
        by providing the guidance and support they need to thrive from the start to the finish. In a<br />
@@ -64,7 +66,7 @@ const About = () => {
   alignItems="center"
   spacing={2}>
 
-                  <img src='/Ellipse 9.png' width={45} height={45} alt=' ' />
+                  <Image src='/Ellipse 9.png' width={45} height={45} alt=' ' />
                   </Stack>
                 <CardContent>
 
@@ -86,7 +88,7 @@ const About = () => {
   alignItems="center"
   spacing={2}>
 
-                  <img src='/Ellipse 10.png' width={45} height={45} alt=' ' />
+                  <Image src='/Ellipse 10.png' width={45} height={45} alt=' ' />
                   </Stack>
                 <CardContent>
                 <h1  align="center" className={styles.titles}>Build A Team</h1>
@@ -105,7 +107,7 @@ const About = () => {
   justifyContent="center"
   alignItems="center"
   spacing={2}>
-             <img src='/Ellipse 11.png' width={45} height={45} alt=' ' />
+             <Image src='/Ellipse 11.png' width={45} height={45} alt=' ' />
                   </Stack>
                 <CardContent>
                 <h1 className={styles.titles}>Share Their Innovation</h1>
@@ -133,7 +135,7 @@ const About = () => {
   >
 
 
-      <img  src='/at.png' height={330} width={420} alt='' />
+      <Image  src='/at.png' height={330} width={420} alt='' />
   </Stack>
       <CardContent style={{backgroundColor: '#2A569F'}}>
    <h1  className={styles.titles}>Blessing Akpan</h1>
@@ -151,7 +153,7 @@ const About = () => {
   sx={{mt: -3}}>
 
 
-      <img src='/at.png' height={330} width={420} alt='' />
+      <Image src='/at.png' height={330} width={420} alt='' />
   </Stack>
       <CardContent>
    <h1 className={styles.titles}>Aniekan Edet </h1>
@@ -169,7 +171,7 @@ const About = () => {
   sx={{mt: -3}}>
 
 
-      <img src='/at.png' height={330} width={420} alt='' />
+      <Image src='/at.png' height={330} width={420} alt='' />
   </Stack>
       <CardContent>
    <h1 className={styles.titles}>Godwin Essang</h1>
@@ -189,7 +191,7 @@ const About = () => {
   sx={{mt: -3}}>
 
 
-      <img src='/at.png' height={330} width={420} alt='' />
+      <Image src='/at.png' height={330} width={420} alt='' />
   </Stack>
       <CardContent>
    <h1 className={styles.titles}>Blessing Akpan</h1>
@@ -207,7 +209,7 @@ const About = () => {
   sx={{mt: -3}}>
 
 
-      <img src='/at.png' height={330} width={420} alt='' />
+      <Image src='/at.png' height={330} width={420} alt='' />
   </Stack>
       <CardContent>
    <h1 className={styles.titles}>Aniekan Edet </h1>
@@ -225,7 +227,7 @@ const About = () => {
   sx={{mt: -3}}>
 
 
-      <img src='/at.png' height={330} width={420} alt='' />
+      <Image src='/at.png' height={330} width={420} alt='' />
   </Stack>
       <CardContent>
    <h1 className={styles.titles}>Godwin Essang</h1>
@@ -265,7 +267,7 @@ help to enable them scale their impact.</p>
   alignItems="center"
   spacing={2}>
 
-         <img src='/col-md-6.png' style={{cursor: 'pointer'}} height={250} width={370} alt='' />
+         <Image src='/col-md-6.png' style={{cursor: 'pointer'}} height={250} width={370} alt='' />
   </Stack>
 
          </Grid>
@@ -285,7 +287,7 @@ the SDGs by 2030</p>
   alignItems="center"
   spacing={2}>
 
-         <img src='/Group 184.png' style={{cursor: 'pointer'}} height={600} width={700} alt='' />
+         <Image src='/Group 184.png' style={{cursor: 'pointer'}} height={600} width={700} alt='' />
   </Stack>
 
          </Grid>
@@ -324,6 +326,7 @@ the SDGs by 2030</p>
          </Grid>
             </Grid>
         </Grid>
+        <Footer />
                  </div>
         </>
      );
