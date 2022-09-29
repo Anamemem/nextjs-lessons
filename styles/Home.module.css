@@ -170,6 +170,25 @@ color: #767672;
   cursor: pointer;
 }
 
+.btn25 {
+  display: block;
+  height: 60px;
+  width: 464px;
+  padding: 8px 0;
+  margin: 20px auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(274.01deg, #F06277 8.9%, #FFB1BD 126.7%);
+  border: white;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+
 .btn24 {
   display: block;
   height: 40px;

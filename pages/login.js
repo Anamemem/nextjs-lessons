@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import { TextField, Button, Typography, InputAdornment } from '@mui/material'
+import { TextField, Button, Typography, InputAdornment, Box } from '@mui/material'
 import Head  from 'next/head'
 import styles from '../styles/Home.module.css'
 import MailIcon from '@mui/icons-material/Mail'
@@ -65,18 +65,20 @@ export default function login() {
     </Head>
     <div>
       <Grid container sx={{ minHeight: '100vh'}} className={styles.text} overFlowY='hidden'>
-        <Grid sx={{px:{xs:3,md:9}, py:1 }} item container alignContent="center" xs={12} md={6} >
+        <Grid sx={{px:{xs:3,md:9}, py:1, mt:3 }} item container alignContent="center" xs={12} md={6} >
             <Grid item>
             <Stack direction="row" alignItems="flex-start" justifyContent="space-between" sx={{px:{xs:4,md:5}}} xs={12} md={6}>
-    <Stack direction="row" spacing={1} alignItems="flex-start">
+    <Stack direction="row" spacing={1} alignItems="flex-start" sx={{ mt:-8}}>
       <Link href='/'>
     <Image src='/Rectangle 74.png' width={200} height={37}  alt="logo" />
     </Link>
-      </Stack>  
-      <Link href='/signup'>
+    <Link href='/signup' >
          Don't Have An Account?Sign Up
          </Link>
+      </Stack>  
+     
       </Stack>
+      <Box sx={{mt:3}}>
                <Typography variant="h6" className={styles.title1}  textAlign="flex-end">
                   Welcome Back!
                </Typography>
@@ -130,6 +132,7 @@ export default function login() {
       <Link href="/">
       <a className={styles.btn23}><Image src='/icons8-google-48.png' alt="" height={25} width={24}/>LOGIN WITH GOOGLE</a>
       </Link>
+      </Box>
             </Grid>
 
         </Grid>

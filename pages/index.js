@@ -25,7 +25,7 @@ export default function Home() {
     </Head>
     <div>
     <Navbar />
-      <Grid container sx={{px: 6}}>
+      <Grid container sx={{px:6, minHeight: '100vh'}}>
         <Grid item md={6}>
           <h1 className={styles.t}>Receive the support you need
 to create a ripple effect in<br />
