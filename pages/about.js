@@ -27,9 +27,9 @@ const About = () => {
          succeed. Young people are full of ideas, 
       and it is pertinent that they have complementary<br />
        skills to help them implement these ideas. </p>
-            <button className={styles.btn}>Watch A Video Now</button>
+            <button  className={styles.btn4}>Watch A Video Now</button>
 
-        <Grid container  className={styles.bg} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
+        <Grid container  className={styles.bg9} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
      <Grid item xs={3} className={styles.ones}>
         <h1>200</h1>
         <p>students</p>
@@ -50,7 +50,7 @@ const About = () => {
 
             
         </Grid>
-        <h1 className={styles.title}>Our Solution Model</h1>
+        <h1 className={styles.to}>Our Solution Model</h1>
         <p className={styles.text}>
         We use a 3-part model to deliver our solution and<br />
          help the students develop knowledge of STEAM<br />
@@ -58,7 +58,7 @@ const About = () => {
         </p>
    
            
-            <Grid container spacing={5}  sx={{px: 3, pt: 10}} >
+            <Grid container spacing={5}  sx={{px: 3, pt: 8}} >
                 <Grid item md={4} >
                 <Card sx={{ maxWidth: 345, height: 385 }}>
                 <Stack direction="row"
@@ -121,7 +121,7 @@ const About = () => {
         </Card>
                 </Grid>
             </Grid>
-            <h1  className={styles.title}>RipplED Team</h1>
+            <h1  className={styles.to}>RipplED Team</h1>
         <p className={styles.text}>
         A squad of talented members
         </p>
@@ -237,29 +237,29 @@ const About = () => {
    </Card>
    </Grid>
 </Grid>
-<Grid container  className={styles.bg2} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
+<Grid container  className={styles.bg2} sx={{backgroundImage: `url('/bg.png')`}}>
     
-<Grid item md={6}>
-<h1 className={styles.pa}>You Can Become A <br />Rippled Sponsor or<br /> Partner </h1>
-</Grid>
-<Grid item md={6}>
-<p className={styles.wad}>Our students are reaching communities<br />
-with their solutions and we need your<br />
-help to enable them scale their impact.</p>
-<Stack 
- direction="row"
- justifyContent="center"
- alignItems="center"
- spacing={5}
- >
-   
-   <button className={styles.btnf}>Sponsor</button>
-   
-   <button className={styles.btnf}>Partner</button>
-</Stack>
-</Grid>
-            
-        </Grid>
+    <Grid item md={6} >
+    <h1 className={styles.pa}>You Can Become A <br />Rippled Sponsor or<br /> Partner </h1>
+    </Grid>
+    <Grid item md={6}>
+    <p className={styles.wad}>Our students are reaching communities<br />
+    with their solutions and we need your<br />
+    help to enable them scale their impact.</p>
+    <Stack 
+     direction="row"
+     justifyContent="center"
+     alignItems="center"
+     spacing={1}
+     >
+       
+       <button className={styles.btnf}>Sponsor</button>
+       
+       <button className={styles.btnf}>Partner</button>
+    </Stack>
+    </Grid>
+                
+            </Grid>
         <Grid container sx={{px: 2, pt: 10}}>
          <Grid item md={6}>
          <Stack direction="row"

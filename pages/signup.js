@@ -30,7 +30,7 @@ export default function signup() {
      <Grid container sx={{ minHeight: '105vh'}} className={styles.text} overFlowY='hidden'>
         <Grid sx={{px:{xs:3,md:9}, py:1 }} item container alignContent="center" xs={12} md={6} >
             <Grid item>
-            <Stack direction="row" alignItems="flex-start" justifyContent="space-between" sx={{px:{xs:4,md:5}}} xs={12} md={6}>
+            <Stack direction="row" alignItems="flex-start" justifyContent="space-between" sx={{px:{xs:4,md:5}, mt:4}} xs={12} md={6}>
     <Stack direction="row" spacing={1} alignItems="flex-start">
       <Link href='/'>
     <Image src='/Rectangle 74.png' width={200} height={37}  alt="logo" />

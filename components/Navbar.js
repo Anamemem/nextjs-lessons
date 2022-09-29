@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <>
           
-            <Grid container >
+            <Grid container sx={{pt: 3,pb: 2}}>
                 <Grid item xs={4} sx={{px: 7}} >
                
                     <Image src='/Rectangle 74.png' width={200} height={37}  alt="logo" />
@@ -24,10 +24,10 @@ const Navbar = () => {
                 <Link href="/about">About</Link>
                 </Grid>
                 <Grid Item md={1}z>
-                <Link href="/">Curiculum </Link>
+                <Link href="/curiculum">Curiculum </Link>
                 </Grid>
                <Grid Item md={1}z>
-                <Link href="/">Projects </Link>
+                <Link href="/project">Projects </Link>
                </Grid>
                <Grid Item md={1}z>
                 <Link href="/">FAQS </Link>

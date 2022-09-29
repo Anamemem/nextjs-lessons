@@ -14,28 +14,7 @@ import CardMedia from '@mui/material/CardMedia';
 
  
 import styles from '../styles/Home.module.css'
-const cards = (
-<Grid>
-<Stack direction="row"
-  justifyContent="center"
-  alignItems="center"
-  
-  >
-      <Image  src='/Rectangle 323.png' height={230} width={270}  alt='' />
-  </Stack>
-      <CardContent style={{backgroundColor: '#', marginTop: "-25%",textAlign: "left"}}>
-   <h1  className={styles.yo}>Blessing Akpan</h1>
-   <p className={styles.yo2}>Executive director & founder</p>
 
-      </CardContent>
-      <Box sx={{pt: 10}}>
-
-<p  className={styles.text}>An enim nullam tempori<br />
-donec porta and blandi<br />
-integer velna vitae.</p>
-    </Box>
-</Grid>
-);
 const card = (
   <Grid>
 <Card sx={{ maxWidth: 245,height: 345 }}>
@@ -73,7 +52,7 @@ const card = (
 );
 
 
-export default function Home() {
+export default function Project() {
 
   return (
     <>
@@ -85,15 +64,15 @@ export default function Home() {
       <Navbar />
       <Grid container sx={{px: 6}}>
         <Grid item md={6}>
-          <h1 className={styles.t}>Receive the support you need
-to create a ripple effect <br />
- in your school and community.</h1>
+          <h1 className={styles.t}>You can view our various project<br />
+categories that enables the<br />
+African child grow and glow.</h1>
 <p className={styles.ts}>We empower high school students ages 10 - 18 to<br />
 become innovators and global change agents.</p>
 
 <Stack direction="row" spacing={1}>
 
-<p >Want to Join Our Community? </p> <button className={styles.btn}>Learn How It Works </button>
+<p >Want to upload your project? </p> <button className={styles.btn}>Upload A Project </button>
 </Stack>
         </Grid>
         <Grid item md={6} sx={{ display: { xs: 'none', sm: 'block' } }}>
@@ -105,7 +84,7 @@ become innovators and global change agents.</p>
   >
 
 
-      <Image src='/union.png' height={430} width={420} alt='' />
+      <Image src='/p.png' height={430} width={420} alt='' />
   </Stack>
         </Grid>
       </Grid>
@@ -131,29 +110,6 @@ become innovators and global change agents.</p>
             
         </Grid>
 
-        <Grid container sx={{px: 2, pt: 10, pb: 10}}>
-         <Grid item md={6}>
-         <Stack direction="row"
-  justifyContent="center"
-  alignItems="center"
- >
-
-         <Image src='/image 23.png' style={{cursor: 'pointer'}} height={280} width={355} alt='' />
-  </Stack>
-
-         </Grid>
-         <Grid item md={6} >
-         <h3 className={styles.tre}>RipplED supports your learning<br />
-and social impact Activities</h3>
-<p className={styles.ta}>Through its online platform, RipplED offer<br />
-students in Secondary Schools the opportunity<br />
-to access skill development opportunities,<br />
-mentorship and tailored curriculum to enable<br />
-them learn and accelerate their activities<br />
-and become global change makers.</p>
-<button className={styles.btnf}>Join Our Community </button>
-         </Grid>
-        </Grid>
 <h2 className={styles.to}>View Our Project Categories</h2>
         <Grid container sx={{px: 5}}>
           <Grid item md={3}>
@@ -180,8 +136,8 @@ and become global change makers.</p>
         </Grid>
 </Grid>
 <Grid container sx={{px: 5, pt:-4,pb: 5}}>
-          <Grid item md={3}>
-          
+          <Grid item md={3} sx={{pt: 20,}}>
+          <button  className={styles.btn9}>Upload A Project </button>
           </Grid>
           <Grid item md={8}>
 <Grid container >
@@ -248,26 +204,7 @@ the SDGs by 2030</p>
          </Grid>
         </Grid>
        
-        <h1 className={styles.title}>What Our Students Say</h1>
-      <Grid container sx={{p: 8}} spacing={-3}>
        
-        <Grid item md={4} >
-       {cards}
-        </Grid>
-        <Grid item md={4} >
-   {cards}
-           </Grid>
-          <Grid item md={4} >
-          {cards}
-           </Grid>
-      </Grid>
-
-
-
-
-
-
-
 
       <Grid container sx={{px: 4, pt: 10}}>
          <Grid item md={6} sx={{ display: { xs: 'none', sm: 'block' } }}>
