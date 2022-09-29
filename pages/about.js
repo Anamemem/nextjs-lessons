@@ -296,31 +296,31 @@ the SDGs by 2030</p>
             <Grid container spacing={2}>
 
             <Grid item xs={12} md={6}>
-          <p>Name</p>
+          <p style={{padding: 10}}>Name</p>
           <input className={styles.in} placeholder='Your Name'></input>
 
             </Grid>
             <Grid item xs={12} md={6}>
-            <p>Subject</p>
+            <p style={{padding: 10}}>Subject</p>
             <input className={styles.in} placeholder='choose subject'></input>
 
   
             </Grid>
             <Grid item xs={12} md={6}>
-            <p>Company</p>
+            <p style={{padding: 10}}>Company</p>
             <input className={styles.in} placeholder='text here'></input>
 
    
             </Grid>
             <Grid item xs={12} md={6}>
-            <p>Email</p>
+            <p style={{padding: 10}}>Email</p>
 
             <input className={styles.in} placeholder='Your email address'></input>
 
             </Grid>
             <Grid item xs={12} >
-               <p>Message</p>
-               {/* <textarea className={styles.mes} placeholder='start typing here'></textarea> */}
+               <p style={{padding: 10}}>Message</p>
+               <textarea className={styles.mes} placeholder='start typing here'></textarea>
             </Grid>
             <button className={styles.btnf}>Submit</button>
          </Grid>
