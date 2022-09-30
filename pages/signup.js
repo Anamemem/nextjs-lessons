@@ -12,7 +12,7 @@ import Image from 'next/image';
 import MenuItem from '@mui/material/MenuItem';
 
 
-export default function signup() {
+export default function Signup() {
 
 
 

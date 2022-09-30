@@ -8,7 +8,7 @@ import Image from 'next/image'
 import { TextField, Button, Typography, InputAdornment, Box } from '@mui/material'
 import MailIcon from '@mui/icons-material/Mail'
 
-function forgotPassword() {
+function ForgotPassword() {
     return ( 
         <>
          <Head>
@@ -70,4 +70,4 @@ function forgotPassword() {
      );
 }
 
-export default forgotPassword;
+export default ForgotPassword;

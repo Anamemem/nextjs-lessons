@@ -56,7 +56,7 @@ const AntSwitch = styled(Switch)(({ theme }) => ({
   }));
 
 
-export default function login() {
+export default function Login() {
   return (
     <>
     <Head>
