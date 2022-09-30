@@ -86,7 +86,7 @@ export default function Signup() {
           label="Sign Up as"
           fullWidth
           className={styles.field}
-          onChange={handleChange}
+      
           variant="filled"
         >
          
