@@ -84,7 +84,6 @@ export default function Signup() {
           id="filled-select-currency"
           select
           label="Sign Up as"
-          value={age}
           fullWidth
           className={styles.field}
           onChange={handleChange}
