@@ -11,7 +11,7 @@ const Blue = () => {
          <p>students</p>
       </Grid>
       <Grid tem xs={3} className={styles.one}>
-         <h1>50</h1>
+         <h1>50</h1>     
          <p>Projects</p>
       </Grid>
       <Grid item xs={3} className={styles.one}>
