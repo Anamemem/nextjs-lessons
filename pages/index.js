@@ -109,20 +109,20 @@ become innovators and global change agents.</p>
   </Stack>
         </Grid>
       </Grid>
-      <Grid container  className={styles.bg} sx={{backgroundImage: `url('/bd.png')`}}>
-     <Grid item md={3} xs={6} className={styles.ones}>
+      <Grid container  className={styles.bg9} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
+     <Grid item xs={3} className={styles.ones}>
         <h1>200</h1>
         <p>students</p>
      </Grid>
-     <Grid tem md={3} xs={6} className={styles.one}>
+     <Grid tem xs={3} className={styles.one}>
         <h1>50</h1>
         <p>Projects</p>
      </Grid>
-     <Grid item md={3} xs={6} className={styles.one}>
+     <Grid item xs={3} className={styles.one}>
         <h1>$5k</h1>
         <p>Projects</p>
      </Grid>
-     <Grid item md={3} xs={6} className={styles.one}>
+     <Grid item xs={3} className={styles.one}>
         <h1>8K</h1>
         <p>Children & adults</p>
      </Grid>
@@ -130,7 +130,6 @@ become innovators and global change agents.</p>
 
             
         </Grid>
-
         <Grid container sx={{px: 2, pt: 10, pb: 10}}>
          <Grid item md={6}>
          <Stack direction="row"
