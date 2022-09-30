@@ -109,7 +109,7 @@ become innovators and global change agents.</p>
   </Stack>
         </Grid>
       </Grid>
-      <Grid container  className={styles.bg9} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
+     <Grid container  className={styles.bg9} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
      <Grid item xs={3} className={styles.ones}>
         <h1>200</h1>
         <p>students</p>
@@ -126,9 +126,6 @@ become innovators and global change agents.</p>
         <h1>8K</h1>
         <p>Children & adults</p>
      </Grid>
-      
-
-            
         </Grid>
         <Grid container sx={{px: 2, pt: 10, pb: 10}}>
          <Grid item md={6}>
