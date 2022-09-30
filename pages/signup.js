@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import Grid from '@mui/material/Grid'
 import { TextField, Button, Typography, InputAdornment } from '@mui/material'
 import Head  from 'next/head'
@@ -13,11 +14,6 @@ import MenuItem from '@mui/material/MenuItem';
 
 export default function signup() {
 
-   const [age, setAge] = React.useState('');
-
-  const handleChange = (event) => {
-    setAge(event.target.value);
-  };
 
 
     return (
@@ -122,8 +118,8 @@ export default function signup() {
         </Grid>
 
         <Grid sx={{px:9, py:5, display:{xs:'none', md:'flex'}}} className={styles.sect} item container alignContent="center" direction="column" xs={12} md={6}>
-           <img src='/Group 10713.png' alt="" width={550}  height={450} />
-           <a className={styles.btn24} sx={{py:2}}><img src='/Vector.png' alt='/' width={20} height={20} sx={{mt:5}} />Top Notch Stock Resources</a>
+           <Image src='/Group 10713.png' alt="" width={550}  height={450} />
+           <a className={styles.btn24} sx={{py:2}}><Image src='/Vector.png' alt='/' width={20} height={20} sx={{mt:5}} />Top Notch Stock Resources</a>
 
            <Typography variant="h7" className={styles.btn20}>
           Today, we create innovative solutions<br /> to the challenges that consumers face in both their<br /> everyday lives and events.

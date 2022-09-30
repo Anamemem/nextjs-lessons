@@ -9,7 +9,7 @@ import { TextField, Button, Typography, InputAdornment, Box } from '@mui/materia
 import MailIcon from '@mui/icons-material/Mail'
 
 
-function passCode() {
+function PassCode() {
     return ( 
      <>
         <Head>
@@ -53,7 +53,7 @@ function passCode() {
                />
                <Stack direction="row" alignItems="flex-start" justifyContent="space-between" sx={{px:{xs:4,md:5}}}>
                 <Link href='/forgotpassword'>
-         Didn't Get Code?Resend
+              <p>  did not  Get Code?Resend</p>
          </Link>
          </Stack>
                </Box>
@@ -67,7 +67,7 @@ function passCode() {
 
             </Grid>
             <Grid sx={{px:9, py:5, display:{xs:'none', md:'flex'}}} className={styles.sect} item container alignContent="center" direction="column" xs={12} md={6}>
-           <img src='/Group 10712.png' alt="" width={550}  height={450} />
+           <Image src='/Group 10712.png' alt="" width={550}  height={450} />
             </Grid>
 
          </Grid>

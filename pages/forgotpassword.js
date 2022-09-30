@@ -61,7 +61,7 @@ function forgotPassword() {
 
             </Grid>
             <Grid sx={{px:9, py:5, display:{xs:'none', md:'flex'}}} className={styles.sect} item container alignContent="center" direction="column" xs={12} md={6}>
-           <img src='/Group 10712.png' alt="" width={550}  height={450} />
+           <Image src='/Group 10712.png' alt="" width={550}  height={450} />
             </Grid>
 
          </Grid>

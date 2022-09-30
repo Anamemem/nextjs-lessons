@@ -73,7 +73,7 @@ export default function login() {
     <Image src='/Rectangle 74.png' width={200} height={37}  alt="logo" />
     </Link>
     <Link href='/signup' >
-         Don't Have An Account?Sign Up
+         Do not Have An Account?Sign Up
          </Link>
       </Stack>  
      
@@ -138,8 +138,8 @@ export default function login() {
         </Grid>
 
         <Grid sx={{px:9, py:5, display:{xs:'none', md:'flex'}}} className={styles.sect} item container alignContent="center" direction="column" xs={12} md={6}>
-           <img src='/Group 10712.png' alt="" width={550}  height={450} />
-           <a className={styles.btn24}><img src='/thumbs-up_1f44d 1.png' alt='/' width={20} height={20} />Top Notch Stock Resources</a>
+           <Image src='/Group 10712.png' alt="" width={550}  height={450} />
+           <a className={styles.btn24}><Image src='/thumbs-up_1f44d 1.png' alt='/' width={20} height={20} />Top Notch Stock Resources</a>
 
            <Typography variant="h7" className={styles.btn20}>
           Today, we create innovative solutions<br /> to the challenges that consumers face in both their<br /> everyday lives and events.
