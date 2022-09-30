@@ -2,6 +2,7 @@ import Head  from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image';
  import Footer from "../components/Footer";
+ import Blue from "../components/Blue";
  import Navbar from "../components/Navbar";
 import { Grid, Stack, Box,Divider } from '@mui/material'
 import Card from '@mui/material/Card';
@@ -109,24 +110,7 @@ become innovators and global change agents.</p>
   </Stack>
         </Grid>
       </Grid>
-     <Grid container  className={styles.bg9} sx={{backgroundImage: `url('/Rectangle 327.png')`}}>
-     <Grid item xs={3} className={styles.ones}>
-        <h1>200</h1>
-        <p>students</p>
-     </Grid>
-     <Grid tem xs={3} className={styles.one}>
-        <h1>50</h1>
-        <p>Projects</p>
-     </Grid>
-     <Grid item xs={3} className={styles.one}>
-        <h1>$5k</h1>
-        <p>Projects</p>
-     </Grid>
-     <Grid item xs={3} className={styles.one}>
-        <h1>8K</h1>
-        <p>Children & adults</p>
-     </Grid>
-        </Grid>
+      <Blue />
         <Grid container sx={{px: 2, pt: 10, pb: 10}}>
          <Grid item md={6}>
          <Stack direction="row"
