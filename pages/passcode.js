@@ -76,4 +76,4 @@ function PassCode() {
      );
 }
 
-export default passCode;
+export default PassCode;
